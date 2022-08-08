@@ -1,0 +1,39 @@
+* {
+    margin: 4px;
+}
+
+body {
+    background-color: aquamarine;
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 380px;
+    height: 380px;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+td:hover {
+    background-color: yellow;
+}
+
+td.black {
+    background-color: black;
+}
+
+.black:hover {
+    background-color: blue;
+}
+
+footer {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
