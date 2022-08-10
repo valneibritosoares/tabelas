@@ -3,7 +3,8 @@ html, body {
     padding: 0px;
 }
 
-h1, h2 {
+h1 {
+    font-size: 3em;
     text-align: center;
     color: crimson;
     text-shadow: 1px 1px 0px black;
@@ -13,6 +14,7 @@ table {
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.417);
     border-collapse: collapse;
+    position: relative;
 }
 
 caption {
@@ -31,25 +33,19 @@ thead th, tfoot th, tfoot td {
     padding: 8px;
 }
 
-#sd {
-    background-color: rgb(255, 3, 95);
+thead th {
+    position: sticky;
+    top: -1px;
 }
 
-#nd {
-    background-color: rgb(3, 125, 255);
+tbody tr:nth-child(odd) { /* 2n-1 */
+    background-color: lightgray;
 }
 
-#su {
-    background-color: rgb(175, 3, 255);
+tbody tr:nth-child(even) { /* 2n */
+    background-color: gray;
 }
 
-#no {
-    background-color: rgb(3, 168, 31);
-}
-
-#co {
-    background-color: rgb(248, 248, 0);
-}
 .nome, .reg {
     padding-left: 15px;
 }
@@ -67,7 +63,18 @@ td, th {
     border: 2.3px solid rgb(5, 5, 5);
     padding: 3px;
 }
+
+
+
 p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+foot p {
+    margin-top: 33px;
+    background-color: lightblue;
     color: blue;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
