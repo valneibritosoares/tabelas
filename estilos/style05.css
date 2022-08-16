@@ -1,0 +1,36 @@
+
+h1, h2, p {
+    text-align: center;
+}
+
+td {
+    border: 0.5px solid  black;
+    width: 40vw;
+    height: 8vh;
+    text-align: center;
+    vertical-align: top;
+}
+
+.cor1 {
+    background-color: blue;
+}
+
+.cor2 {
+    background-color: coral;
+}
+
+.cor3 {
+    background-color: chartreuse;
+}
+
+.cor4 {
+    background-color: violet;
+}
+
+.cor5 {
+    background-color: yellow;
+}
+
+#conteiner {
+    overflow-x: auto;
+}
